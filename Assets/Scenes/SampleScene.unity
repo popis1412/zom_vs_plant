@@ -1492,7 +1492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sweetSprite: {fileID: 21300000, guid: 5c75f56e176dc9a499f4bdd847161773, type: 3}
-  sweetObject: {fileID: 1074003041021376849, guid: ddae0c4882c6bef42be0e8db45148acf, type: 3}
+  sweetObject: {fileID: 5196848676896524555, guid: 184bc85e615dcad4db6320574cf00f2c, type: 3}
   price: 175
   icon: {fileID: 767312143}
   priceText: {fileID: 223970266}
@@ -1595,7 +1595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sweetSprite: {fileID: 21300000, guid: 50f32e64248cbb54a819ad94239c713c, type: 3}
-  sweetObject: {fileID: 1074003041021376849, guid: 5da25315d0ccde04581be5fce4b8441d, type: 3}
+  sweetObject: {fileID: 3481147144953681987, guid: 1992d604c34a9fb498fd8620525320e5, type: 3}
   price: 200
   icon: {fileID: 911928557}
   priceText: {fileID: 534026599}
