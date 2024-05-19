@@ -580,7 +580,7 @@ Transform:
   m_GameObject: {fileID: 61568755}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1280, y: -720, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1170,7 +1170,6 @@ GameObject:
   m_Component:
   - component: {fileID: 164242359}
   - component: {fileID: 164242360}
-  - component: {fileID: 164242361}
   m_Layer: 0
   m_Name: zomMake4
   m_TagString: Untagged
@@ -1207,27 +1206,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempos: 
   Zombie: {fileID: 0}
---- !u!65 &164242361
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164242358}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &174076975
 GameObject:
   m_ObjectHideFlags: 0
@@ -4317,7 +4295,6 @@ GameObject:
   m_Component:
   - component: {fileID: 779349089}
   - component: {fileID: 779349090}
-  - component: {fileID: 779349091}
   m_Layer: 0
   m_Name: zomMake10
   m_TagString: Untagged
@@ -4354,27 +4331,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempos: 
   Zombie: {fileID: 0}
---- !u!65 &779349091
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 779349088}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &789591014
 GameObject:
   m_ObjectHideFlags: 0
@@ -5911,7 +5867,6 @@ GameObject:
   m_Component:
   - component: {fileID: 936363905}
   - component: {fileID: 936363906}
-  - component: {fileID: 936363907}
   m_Layer: 0
   m_Name: zomMake2
   m_TagString: Untagged
@@ -5928,7 +5883,7 @@ Transform:
   m_GameObject: {fileID: 936363904}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.63, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5948,27 +5903,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempos: 
   Zombie: {fileID: 0}
---- !u!65 &936363907
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936363904}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.4646299, z: 1}
-  m_Center: {x: 0, y: 0.2676853, z: 0}
 --- !u!1 &957488187
 GameObject:
   m_ObjectHideFlags: 0
@@ -6740,7 +6674,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1087255855}
   - component: {fileID: 1087255856}
-  - component: {fileID: 1087255857}
   m_Layer: 0
   m_Name: zomMake1
   m_TagString: Untagged
@@ -6777,27 +6710,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempos: 
   Zombie: {fileID: 0}
---- !u!65 &1087255857
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1087255854}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1089261249
 GameObject:
   m_ObjectHideFlags: 0
@@ -8127,7 +8039,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1332872791}
   - component: {fileID: 1332872792}
-  - component: {fileID: 1332872793}
   m_Layer: 0
   m_Name: zomMake6
   m_TagString: Untagged
@@ -8164,27 +8075,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempos: 
   Zombie: {fileID: 0}
---- !u!65 &1332872793
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332872790}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1344964538
 GameObject:
   m_ObjectHideFlags: 0
@@ -8256,6 +8146,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombiePrefab: {fileID: 6346926351767976929, guid: 72cb743ffca793340a0123541db87775, type: 3}
   spawnPoints:
+  - {fileID: 1344964539}
+  spawnTiles:
   - {fileID: 1087255855}
   - {fileID: 936363905}
   - {fileID: 1750084715}
@@ -8266,8 +8158,6 @@ MonoBehaviour:
   - {fileID: 2059451062}
   - {fileID: 1809471012}
   - {fileID: 779349089}
-  spawnTiles:
-  - {fileID: 1344964539}
   zombieSpeed: 3
 --- !u!1 &1384702668
 GameObject:
@@ -9990,7 +9880,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1750084715}
   - component: {fileID: 1750084716}
-  - component: {fileID: 1750084717}
   m_Layer: 0
   m_Name: zomMake3
   m_TagString: Untagged
@@ -10027,27 +9916,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempos: 
   Zombie: {fileID: 0}
---- !u!65 &1750084717
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750084714}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1785678088
 GameObject:
   m_ObjectHideFlags: 0
@@ -10258,7 +10126,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1809471012}
   - component: {fileID: 1809471013}
-  - component: {fileID: 1809471014}
   m_Layer: 0
   m_Name: zomMake9
   m_TagString: Untagged
@@ -10295,27 +10162,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempos: 
   Zombie: {fileID: 0}
---- !u!65 &1809471014
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809471011}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1810639962
 GameObject:
   m_ObjectHideFlags: 0
@@ -10396,7 +10242,7 @@ Transform:
   m_GameObject: {fileID: 1810639962}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 320, y: 180, z: 0}
+  m_LocalPosition: {x: -960, y: -540, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11888,7 +11734,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1981819606}
   - component: {fileID: 1981819607}
-  - component: {fileID: 1981819608}
   m_Layer: 0
   m_Name: zomMake5
   m_TagString: Untagged
@@ -11925,27 +11770,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempos: 
   Zombie: {fileID: 0}
---- !u!65 &1981819608
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981819605}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1983956606
 GameObject:
   m_ObjectHideFlags: 0
@@ -12613,7 +12437,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2059451062}
   - component: {fileID: 2059451063}
-  - component: {fileID: 2059451064}
   m_Layer: 0
   m_Name: zomMake8
   m_TagString: Untagged
@@ -12650,27 +12473,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempos: 
   Zombie: {fileID: 0}
---- !u!65 &2059451064
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2059451061}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2078478422
 GameObject:
   m_ObjectHideFlags: 0
@@ -12895,8 +12697,8 @@ Transform:
   m_GameObject: {fileID: 2079967033}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 330.45, y: 180, z: 0}
-  m_LocalScale: {x: 1.1959043, y: 2.2697, z: 1}
+  m_LocalPosition: {x: -949.5, y: -540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1344964539}
@@ -12916,7 +12718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   executeInUpdate: 1
   anchorType: 5
-  anchorOffset: {x: 1.7, y: 0, z: 0}
+  anchorOffset: {x: 1.75, y: 0, z: 0}
 --- !u!114 &2079967038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13233,7 +13035,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2127815937}
   - component: {fileID: 2127815938}
-  - component: {fileID: 2127815939}
   m_Layer: 0
   m_Name: zomMake7
   m_TagString: Untagged
@@ -13270,27 +13071,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempos: 
   Zombie: {fileID: 0}
---- !u!65 &2127815939
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2127815936}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.5015522, z: 1}
-  m_Center: {x: 0, y: 0.24922433, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

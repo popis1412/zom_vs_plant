@@ -28,13 +28,13 @@ public class SweetsSlot : MonoBehaviour
 
     private void BuySweet()
     {
-        if(gms.cost >= price && !gms.currentSweet)
+        if (gms.cost >= price && !gms.currentSweet)
         {
             gms.cost -= price;
             // GameManager의 BuySweet 메서드를 호출하여 해당 스위트를 구매
             gms.BuySweet(sweetObject, sweetSprite);
         }
-        
+
     }
 
     private void OnValidate()

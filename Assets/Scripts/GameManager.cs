@@ -73,6 +73,7 @@ public class GameManager : MonoBehaviour
             }               
         }
 
+        // 추가
         // 카메라에서 마우스 위치로 레이캐스트 쏘아 타일을 찾음.
         RaycastHit2D costhit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, Mathf.Infinity, costMask);
 
