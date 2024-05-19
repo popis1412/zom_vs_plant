@@ -9,10 +9,8 @@ public class ScaleToFitScreen : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
 
-        // 화면 높이
-        float worldScreenHeight = Camera.main.orthographicSize * 2;
-
-        // 화면 너비
+        // 카메라 기준으로 화면 높이와 너비 구하기
+        float worldScreenHeight = Camera.main.orthographicSize * 2; 
         float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
 
         // 화면 크기 조정
@@ -23,5 +21,4 @@ public class ScaleToFitScreen : MonoBehaviour
         print("크기:" + Scale);
         print($"WorldHeight: {worldScreenHeight}, WorldWidth: {worldScreenWidth}");
     }
-
 } // class

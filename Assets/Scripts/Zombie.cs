@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class zombie : MonoBehaviour
 {
+    public float speed;
+    public int health;
+    
     public int vida = 4;
     public float velocidad;
     public LayerMask layerPlanta;
@@ -28,6 +31,15 @@ public class zombie : MonoBehaviour
         {
             cadAux = 0;
             transform.position -= Vector3.right * velocidad * Time.deltaTime;
+        }
+    }
+
+    public void Hit(int damage)
+    {
+        health -= damage;
+        if(health <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 

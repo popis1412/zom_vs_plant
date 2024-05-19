@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -9,11 +10,17 @@ public class GameManager : MonoBehaviour
     // 추가 
     public GameObject currentSweet; 
     public Sprite currentSweetSprite;
+
     public Transform tiles; // 타일 부모 오브젝트의 transform
     public LayerMask tileMask; // 타일 클릭하기 위한 레이어 마스크
 
     // 원본 카드 오브젝트
     public GameObject originalCard; // 아직 카드 복사 구현중
+
+    public int cost;
+    public TextMeshProUGUI costText;
+
+    public LayerMask costMask;
 
     // 과자 구매 오브젝트, 이미지 지정
     public void BuySweet(GameObject sweet, Sprite sprite)
@@ -39,6 +46,8 @@ public class GameManager : MonoBehaviour
     // 추가
     private void Update()
     {
+        costText.text = cost.ToString();
+
         // 카메라에서 마우스 위치로 레이캐스트 쏘아 타일을 찾음.
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, Mathf.Infinity, tileMask);
 
@@ -61,7 +70,17 @@ public class GameManager : MonoBehaviour
                 hit.collider.GetComponent<Tile>().hasSweet = true;
                 currentSweet = null;
                 currentSweetSprite = null;
-            }
+            }               
         }
+
+        // 카메라에서 마우스 위치로 레이캐스트 쏘아 타일을 찾음.
+        RaycastHit2D costhit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, Mathf.Infinity, costMask);
+
+        if (costhit.collider)
+            if (Input.GetMouseButtonDown(0))
+            {
+                cost += 25;
+                Destroy(costhit.collider.gameObject);
+            }
     }
 }
