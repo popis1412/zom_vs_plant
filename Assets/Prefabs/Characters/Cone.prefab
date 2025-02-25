@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7528397361796837134}
   - component: {fileID: 6825132227963099439}
-  - component: {fileID: 6353379944685676033}
   - component: {fileID: 8113156340380054784}
   m_Layer: 0
   m_Name: Cone
@@ -87,25 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6353379944685676033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074003041021376849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dd1c5fbfb314af4dbf27335b0f75d1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 7372247637863347829, guid: bf022dfcc0684b0408eadee07dcc6b7f, type: 3}
-  shootOrigin: {fileID: 6051815400763471240}
-  cooldown: 1.5
-  range: 10
-  shootMask:
-    serializedVersion: 2
-    m_Bits: 128
 --- !u!61 &8113156340380054784
 BoxCollider2D:
   m_ObjectHideFlags: 0
